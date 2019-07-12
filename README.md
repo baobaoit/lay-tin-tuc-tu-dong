@@ -24,4 +24,23 @@ Ví dụ:
 
 4. Có khó khăn gì trao đổi trong nhóm.
 
+5. Khi tạo 1 nhánh cần đặt tên nhánh theo định dạng:
+> tênNgườiThựcHiện/tên-chức-năng-hoặc-công việc
+
+Ví dụ:
+> Nhi/php-lay-tin-tu-dong
+
+> Long/fix-UI
+
+> Tuan/test-website
+
+> Nhan/bao-cao
+
+Lưu ý: tên người thực hiện phải giữ nguyên trong suốt quá trình làm không thay đổi
+Ví dụ:
+> Nhi/php-dang-nhap
+
+Không được thay đổi thành
+> ~~HuuNhi/php-dang-xuat~~
+
 ## Bảng tiến độ
