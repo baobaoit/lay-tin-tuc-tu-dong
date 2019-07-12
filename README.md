@@ -20,7 +20,7 @@ Ví dụ:
 
 > UI: sửa lỗi không hiển thị nút tìm kiếm
 
-3. Khi thêm chức năng hay sửa lỗi thì phải tạo 1 branch mới dựa trên branch master, sau khi làm xong, merge branch master vào nhánh đang làm để giải quyết lỗi xung đột (nếu có), pm Bảo để test, Bảo test xong sẽ merge vào branch master.
+3. Khi thêm chức năng hay sửa lỗi thì phải tạo 1 branch mới dựa trên branch master, sau khi làm xong pm Bảo để test, Bảo test xong sẽ merge vào branch master.
 
 4. Có khó khăn gì trao đổi trong nhóm.
 
