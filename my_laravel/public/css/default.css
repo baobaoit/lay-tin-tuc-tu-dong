@@ -1,0 +1,164 @@
+body{
+	background : silver;
+    height:100%;
+    width:100%;
+}
+/*màu cho thanh menu */
+nav{
+    background-color: #660000;
+    height:10%;
+    position:fixed;
+    width:100%;
+
+    
+}
+#icon{
+    background-image:url('http://www.oude.edu.vn/www/uploads/images/Khoa/CNTT.png');
+}
+#row{
+    background-color: #990000;
+    width:101%;
+
+    height:100%;
+
+}
+a{
+    color:white !important;
+}
+/*chỉnh đốn vị trí và loại bỏ đống bullet phía trước các mục trong li*/
+nav ul{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+/*đưa các mục về hàng ngang*/
+nav li{
+    display:inline-block;
+    height :20%;
+}
+/*trang điểm*/
+nav li a{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    padding:20px 16px;
+}
+header{
+    background-color:lightgrey;
+    padding:1.5em;
+    text-align:center;
+}
+
+
+#nav{ 
+         
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight:bold;
+        color:white;
+        font-size: 80%;
+        
+        height:40px;
+        text-align:center;
+        
+    }
+#menu{
+        background-color:#990000;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight:bold;
+        color:white;
+        font-size: 80%;
+        
+        height:40px;
+        text-align:center;
+}
+    a{
+        color:white;
+    }
+    th,td{
+            
+            color:white;
+            
+        }
+
+#content{
+    width: 100%;
+    height:70%;
+    line-height:2.0;
+	background-color:#F5F5DC;
+    color:black;
+    position:inherit;
+    top: 11.5%;
+    bottom:50px;
+    margin: 0 auto;
+    overflow: auto;
+}
+img{
+
+    width:200px;
+    height:200px;
+}
+
+img#iconhome {
+    width:20px;
+    height:20px;
+}
+button{
+
+    border:0;
+    background-color: white;
+
+
+}
+h4{
+    float:both;
+    font-size:15px;
+    text-decoration: underline;
+}
+.col-wrap {
+    display: table; 
+    width: 100%;
+    height: 100%;
+
+    
+    
+}
+
+.col {
+    display: table-cell;
+    padding: 1rem;
+
+}
+.col:nth-child(even){
+    background-color:white;
+}
+.col:nth-child(odd){
+    background-color:white;
+}
+.col-wrap {
+    display: table; 
+    width: 100%;
+
+  
+}
+
+.col1 {
+    display: table-cell;
+    width:70%;
+    background-color:white;
+    border:1px solid #990000;
+
+}
+.col {
+    display: table-cell;
+    width:30%;
+    border:1px solid #990000;
+
+}
+.col:nth-child(even){
+    background-color:white;
+}
+.col:nth-child(odd){
+    background-color:white;
+}
+
+
