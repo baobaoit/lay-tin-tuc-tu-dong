@@ -39,18 +39,7 @@
             </div>
 
             <div class="col" >
-                <h2>Column 2</h2>
-                <p>Hello World!</p>
-                <p>Hello World!</p>
-                <p>Hello World!</p>
-                <p>Hello World!</p>
-                <p>Hello World!</p>
-                <p>Hello World!</p>
-                <p>Hello World!</p>
-                <p>Hello World!</p>
-                <p>Hello World!</p>
-                <p>Hello World!</p>
-                <p>Hello World!11</p>
+                 @include('rss.col2')
 
             </div>
 
