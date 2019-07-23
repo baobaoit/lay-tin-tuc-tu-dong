@@ -1,17 +1,11 @@
 @extends('layouts.news')
 
 @section('content')
-<style>
 
-    .rss{
-        float:left;
-
-    }
-</style>
     <div id = "content">
         <div class="col-wrap">
             <div class="col1">
-                <h1>Hot News</h1>
+                <h1 id="h1t">Hot News</h1>
                 <div class="rss">
                     @foreach($newsContents as $content)
                         @foreach($content as $item)
@@ -24,6 +18,7 @@
                                     <button type="submit" ><h4>{{$item->title}}</h4></button>
 
                                 </form>
+
                                 @php
                                     {{
 
@@ -39,21 +34,9 @@
             </div>
 
             <div class="col" >
-                <h2>Column 2</h2>
-                <p>Hello World!</p>
-                <p>Hello World!</p>
-                <p>Hello World!</p>
-                <p>Hello World!</p>
-                <p>Hello World!</p>
-                <p>Hello World!</p>
-                <p>Hello World!</p>
-                <p>Hello World!</p>
-                <p>Hello World!</p>
-                <p>Hello World!</p>
-                <p>Hello World!11</p>
+            @include('rss.col2')
 
             </div>
-
 
         </div>
 

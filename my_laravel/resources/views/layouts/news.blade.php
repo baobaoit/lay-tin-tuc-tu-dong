@@ -41,7 +41,7 @@
         <tr>
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <td><a class="nav-link" href="{{ route('rss.gioithieu')}}">Giới hiệu<span class="sr-only">(current)</span></a></td>
+                    <td><a class="nav-link" href="{{ route('rss.gioithieu')}}">Giới thiệu<span class="sr-only">(current)</span></a></td>
 
                     </td>
                 </li>
@@ -53,7 +53,7 @@
                         <td><a class="nav-link" href="#">Quảng cáo<span class="sr-only">(current)</span></a></td>
                     </li>
                     <li class="nav-item active">
-                        <td><a class="nav-link" href="#">Login<span class="sr-only">(current)</span></a></td>
+                        <td><a class="nav-link" href="#">Góp ý<span class="sr-only">(current)</span></a></td>
                     </li>
 
                     <li class="nav-item active">
@@ -111,6 +111,7 @@
 
     #abc{
         text-decoration: blink;
+       
     }
 
 </style>

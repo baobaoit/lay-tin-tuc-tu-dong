@@ -43,4 +43,7 @@ Ví dụ:
 Không được thay đổi thành
 > ~~HuuNhi/php-dang-xuat~~
 
-## Bảng tiến độ
+## Bảng phân công
+Tên thành viên | Công việc | Tiến độ |
+--- | --- | --- |
+Lê Tuấn Long | Thiết kế giao diện website | 100%
