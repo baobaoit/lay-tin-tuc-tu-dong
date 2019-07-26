@@ -44,6 +44,10 @@ Không được thay đổi thành
 > ~~HuuNhi/php-dang-xuat~~
 
 ## Bảng phân công
-Tên thành viên | Công việc | Tiến độ |
---- | --- | --- |
-Lê Tuấn Long | Thiết kế giao diện website | 100%
+MSSV | Tên thành viên | Công việc | Tiến độ |
+| --- | --- | --- | --- |
+1551010060 | Lê Tuấn Long | Thiết kế giao diện website | 100%
+1551010092 | Lê Hữu Nhị | Xây dựng API<br/>Xử lý RSS | 100%
+1551010142 | Nguyễn Anh Tuấn | Test trang web | 100%
+1551010086 | Lê Thành Nhân | Viết báo cáo | 100%
+1551010009 | Lê Hoàng Quốc Bảo | Kiểm định chất lượng code<br/>Test trang web<br/>Phân công việc | 100%
