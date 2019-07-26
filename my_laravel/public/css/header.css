@@ -1,0 +1,16 @@
+.logo{
+	margin-right:20px;
+	margin-left:10px;
+	background-image:url('http://ou.edu.vn/wp-content/uploads/2016/08/Logo.png');
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:100%;
+	text-indent: -9999px;
+	color: white;
+	width:400px;
+
+}
+
+	#row{
+		height:40px;
+	}
