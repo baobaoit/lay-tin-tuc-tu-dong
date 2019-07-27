@@ -124,10 +124,19 @@
                         Họ và tên: Nguyễn Anh Tuấn <br>
                         Công việc: Tester và viết báo cáo 
                     </p>
-                    <img class="spotlight" src="anh.jpg" aria-busy="true">
+                    <?php 
+                    
+                    use Illuminate\Routing\UrlGenerator;
+
+                    $currentUrl = url()->current();
+                    $isIncludeRssContent = strpos($currentUrl, '/rss/content') !== false;
+                    $imageSrc = $isIncludeRssContent ? '../anh.jpg' : 'anh.jpg';
+
+                    ?>
+                    <img class="spotlight" src="<?= $imageSrc ?>" aria-busy="true">
                       <p id="info">MSSV: 1551010086 <br>
                         Họ và tên: Lê Thành Nhân  <br>
-                        Công việc:  Viết báo cáo 
+                        Công việc: Viết báo cáo 
                     </p>
                 </marquee>
                 </div>
