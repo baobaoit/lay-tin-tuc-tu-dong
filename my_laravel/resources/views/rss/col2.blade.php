@@ -97,7 +97,7 @@
                 <p id="gr">Trường đại học Mở TPHCM </p>
                 <img id="logows" src="https://upload.wikimedia.org/wikipedia/vi/thumb/2/28/Logo_DH_MO.png/1200px-Logo_DH_MO.png"><br></br>
                 <p id ="GV"> Giảng viên hướng dẫn đề tài </p>
-                <p id ="nameGV">Thầy : Lưu Quang Phương </p>
+                <p id ="nameGV">Thầy: ThS. Lưu Quang Phương </p>
                 </div>
                 <hr></hr>
                 <div class="widget2">
@@ -106,28 +106,37 @@
                     <marquee   direction="up" behavior="slide" style="border:blue 2px solid" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="30" >
                     <img class="spotlight" aria-busy="false" src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t1.0-9/19732040_1523440727695530_3099650468057138855_n.jpg?_nc_cat=110&amp;_nc_oc=AQnoQm3SJ0vQGXkl96qaiDOBk7M1qv0ZliP4x8IBxkYpoD1q7uHpHSnk2S1-AZd-Hhs&amp;_nc_ht=scontent.fsgn2-3.fna&amp;oh=46edc997aafc88dbe2adfff4fad9d43a&amp;oe=5DEC7A7C" >
                     <p id="info">MSSV: 1551010009 <br>
-                        Họ và tên : Lê Hoàng Quốc Bảo <br>
-                        Công việc : trưởng nhóm 
+                        Họ và tên: Lê Hoàng Quốc Bảo <br>
+                        Công việc: Trưởng nhóm 
                     </p>
                   <img class="spotlight" aria-busy="false" src="https://scontent.fsgn2-4.fna.fbcdn.net/v/t1.0-9/66776731_1650994118377267_8926147410774720512_n.jpg?_nc_cat=101&amp;_nc_oc=AQlSwIgMQ23guTpyLOPEos1tl4BxLD-CQZRiG-E8qEgg3NcYsKT8pTFbJjufTMnBhos&amp;_nc_ht=scontent.fsgn2-4.fna&amp;oh=74e085f331ba8f132589efc2ee925a25&amp;oe=5DA60100">
                     <p id="info">MSSV: 1551010060 <br>
-                        Họ và tên : Lê Tuấn Long <br>
-                        Công việc : Thiết kế và xử lý UI 
+                        Họ và tên: Lê Tuấn Long <br>
+                        Công việc: Thiết kế và xử lý UI 
                     </p>
                     <img class="spotlight"  src="https://scontent.fsgn2-4.fna.fbcdn.net/v/t1.0-9/23031168_321139921693723_1451511014995460644_n.jpg?_nc_cat=103&amp;_nc_oc=AQnm9on5g1bCXpwAfcoH49gO_FyvOYGr30R-wCye9_HBOrqTB1Fhji5JLpK2gVBJUww&amp;_nc_ht=scontent.fsgn2-4.fna&amp;oh=bab4a8cc579ceb4b44beacf79ddddfdd&amp;oe=5DA52864" >
                       <p id="info">MSSV: 1551010092 <br>
-                        Họ và tên : Lê Hữu Nhị <br>
-                        Công việc : Xây dựng API và xử lý RSS
+                        Họ và tên: Lê Hữu Nhị <br>
+                        Công việc: Xây dựng API và xử lý RSS
                     </p>
                     <img class="spotlight" alt=" Nguyễn Anh Tuấn" aria-busy="false" src="https://scontent.fsgn2-4.fna.fbcdn.net/v/t1.0-9/1509894_532599570234992_4575848048086139676_n.jpg?_nc_cat=101&amp;_nc_oc=AQnqU_vOnLzGmTuYXPzPW7t2MM7zvueyhV2yT7zRIgLZd6Xnr-rzZvqLQVcjPJbblHY&amp;_nc_ht=scontent.fsgn2-4.fna&amp;oh=71625be771fa57db1266891f5f73f925&amp;oe=5DEAF404">
                     <p id="info">MSSV: 1551010142 <br>
-                        Họ và tên : Nguyễn Anh Tuấn <br>
-                        Công việc : Tester và viết báo cáo 
+                        Họ và tên: Nguyễn Anh Tuấn <br>
+                        Công việc: Tester và viết báo cáo 
                     </p>
-                    <img class="spotlight" src="anh.jpg" aria-busy="true">
+                    <?php 
+                    
+                    use Illuminate\Routing\UrlGenerator;
+
+                    $currentUrl = url()->current();
+                    $isIncludeRssContent = strpos($currentUrl, '/rss/content') !== false;
+                    $imageSrc = $isIncludeRssContent ? '../anh.jpg' : 'anh.jpg';
+
+                    ?>
+                    <img class="spotlight" src="<?= $imageSrc ?>" aria-busy="true">
                       <p id="info">MSSV: 1551010086 <br>
-                        Họ và tên : Lê Thành Nhân  <br>
-                        Công việc :  Viết báo cáo 
+                        Họ và tên: Lê Thành Nhân  <br>
+                        Công việc: Viết báo cáo 
                     </p>
                 </marquee>
                 </div>
