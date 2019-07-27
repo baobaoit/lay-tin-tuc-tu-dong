@@ -121,9 +121,14 @@ class NewsController extends Controller
             }*/
             $pattern = $news->pre_pattern;
             $html = $this->getTextInsideTags($pattern,$source);
-            $postContent = $html[0];
-            //print_r($html[0]);
-            return view('rss.content',compact('title'),compact('postContent'));
+            if(isset($html[0]))
+            {
+                $postContent = $html[0];
+                return view('rss.content',compact('title'),compact('postContent'));
+            }
+            else
+                return view('rss.error');
+
         }
     }
 }
