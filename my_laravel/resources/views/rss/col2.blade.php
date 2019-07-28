@@ -1,28 +1,29 @@
 
 <style>
-    .widget1
+
+    .widgetc1
     {
         height: 450px;
     }
-    .widget2
+    .widgetc2
     {
         height:1700px;
     }
-    .widget3
+    .widgetc3
     {
         height:300px;
     }
 
-    .widget4
+    .widgetc4
     {
        height:500px;
 
     }
-    .widget5
+    .widgetc5
     {
        height:700px;
     }
-    .widget6{
+    .widgetc6{
         height:10%;
     }
     hr{
@@ -62,6 +63,9 @@
     }
     #logows{
         margin-left:23%;
+        width:200px;
+        height:200px;
+
     }
     #tv{
           font-weight: bold;
@@ -92,7 +96,7 @@
 </style>
 
 
-                <div class="widget1">
+                <div class="widgetc1">
                 <p id ="tile">Chủ đề lấy tin tức tự động bằng RSS </p>
                 <p id="gr">Trường đại học Mở TPHCM </p>
                 <img id="logows" src="https://upload.wikimedia.org/wikipedia/vi/thumb/2/28/Logo_DH_MO.png/1200px-Logo_DH_MO.png"><br></br>
@@ -100,7 +104,7 @@
                 <p id ="nameGV">Thầy: ThS. Lưu Quang Phương </p>
                 </div>
                 <hr></hr>
-                <div class="widget2">
+                <div class="widgetc2">
                   
                     <p id ="tv">Thành viên của nhóm  </p>
                     <marquee   direction="up" behavior="slide" style="border:blue 2px solid" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="30" >
@@ -141,7 +145,7 @@
                 </marquee>
                 </div>
                  <hr></hr>
-                <div class="widget3">
+                <div class="widgetc3">
                     <h2>Label</h2>
                    <ul>
                     <li > <a class="label" href="{{ route('news.thoisu')}}"> Thời sự </a> </li>
@@ -154,18 +158,20 @@
                 </ul>
                 </div>
                  <hr></hr>
-                  <div class="widget4">
+                  <div class="widgetc4">
                     <h2>U22 VS Curacao </h2>
                     <iframe width="300" height="315" src="https://www.youtube.com/embed/xPYIJGaZylo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                    <hr></hr>
-                 <div class="widget5">
+                 <div class="widgetc5">
                     <h2>List nhạc thư giản</h2>
                     <iframe src="https://www.nhaccuatui.com/lh/auto/kr9KYNtkzmnA" width="300px" height="600px" frameborder="0" allowfullscreen></iframe>
                 </div>
                 <hr></hr>
-                 <div class="widget6">
+                 <div class="widgetc6">
                     <h2>Image</h2>
                   <img id="qc" src="//baomoi-static.zadn.vn/events/banner_hcm_02-min.png"  alt="Học tập và làm theo tấm gương đạo đức Hồ Chí Minh">
                 </div>
-            </div>
+        
+
+        

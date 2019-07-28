@@ -12,6 +12,11 @@ nav{
 
     
 }
+#favicon {
+    background-image: url('lacai.png');
+     height: 100%;
+    width: 100%;
+}
 #icon{
     background-image:url('http://www.oude.edu.vn/www/uploads/images/Khoa/CNTT.png');
 }
@@ -22,8 +27,8 @@ nav{
     height:100%;
 
 }
-a{
-    color:white !important;
+#menudv{
+    color:white;
 }
 /*chỉnh đốn vị trí và loại bỏ đống bullet phía trước các mục trong li*/
 nav ul{
