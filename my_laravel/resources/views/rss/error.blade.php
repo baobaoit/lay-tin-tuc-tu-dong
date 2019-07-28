@@ -6,7 +6,7 @@
         <div class="col-md-12">
             <div class="error-template">
                 <h1>
-                   Erros!</h1>
+                   Oops!</h1>
                 <h2>
                     404 Not Found</h2>
          
