@@ -50,6 +50,7 @@ li{
 
 </style>
 <marquee id="marq" style="border:blue 2px solid"  scrollamount="10"   scrolldelay="0" behavior="slide" onmouseover="this.stop()" onmouseout="this.start()">Chào mừng các bạn đến với trang giới thiệu thông tin của website Lacai.com. Rất hân hạnh nâng cao tri thức và là 1 nơi tin tức đáng tin cậy nhất Việt Nam!!</marquee>
+
 <div class="help-box">
         <div class="help__inner">
             <h3 class="help__title"><i class="spr spr-info"></i><span>Giới thiệu LACAI.COM</span></h3>
