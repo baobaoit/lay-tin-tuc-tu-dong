@@ -15,7 +15,8 @@
 		width:400px;
 		height:400px;
 	}
-	.comment-wrapper .form-comment{background-color:rgba(34,34,34,.05);padding:16px}.comment-wrapper .form-comment .input-type-text{background-color:#fff;box-shadow:inset 0 1px 3px 0 rgba(0,0,0,.19);border:solid 1px #c89490;height:76px}
+	.comment-wrapper .form-comment{background-color:rgba(34,34,34,.05);padding:16px}
+	.comment-wrapper .form-comment .input-type-text{background-color:#fff;box-shadow:inset 0 1px 3px 0 rgba(0,0,0,.19);border:solid 1px #c89490;height:76px}
 	.comment-wrapper .form-comment .send-comment{border-radius:2px;background-color:#e32;color:white;padding:8px 12px;float:left;font-size:13px;margin-top:6px}
 	.col1{
 
