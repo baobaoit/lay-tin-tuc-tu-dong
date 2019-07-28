@@ -12,8 +12,13 @@
 </head>
 <style>
 	img{
-		width:400px;
+
+		width:500px;
 		height:400px;
+	}
+	.VCSortableInPreviewMode
+	{
+		margin-left:0px;
 	}
 	.comment-wrapper .form-comment{background-color:rgba(34,34,34,.05);padding:16px}
 	.comment-wrapper .form-comment .input-type-text{background-color:#fff;box-shadow:inset 0 1px 3px 0 rgba(0,0,0,.19);border:solid 1px #c89490;height:76px}
@@ -36,24 +41,19 @@
 	
 </style>
 
+
 <div class="col1">
- 
-
-
-
 				    <h1 id ="titlec">{{$title}}</h1>
 				 
 				    @php
 				        print_r($postContent);
 				    @endphp
-			
-			</div>
+		
+			</div>	
 	</div>
-
-	
-
 		</div>
 			<div class="col">
 				  @include('rss.col2')
 			</div>
+
 @endsection
